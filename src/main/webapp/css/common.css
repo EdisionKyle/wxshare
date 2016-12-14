@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+
+body {
+	margin: auto;
+	width: 800px;
+}
+
+.text-c {
+	text-align: center;
+}
+
+.page-container {
+	margin-top: 10px;
+}
+
+.mt-10 {
+	margin-top: 10px;
+}

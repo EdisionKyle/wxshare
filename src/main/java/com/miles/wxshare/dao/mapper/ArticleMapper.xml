@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.miles.wxshare.dao.UserDao">
+
+	<select id="findAllUser" resultType="com.miles.wxshare.pojo.User">
+		select
+		uid as uid, uname as uname,
+		address as address, job as job,
+		hobit as hobit, reg_date as regDate
+		from users
+	</select>
+
+</mapper>
